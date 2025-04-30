@@ -136,7 +136,7 @@ export default function EmployeePage() {
         filtered = filtered.filter(emp => emp.role === activeTab);
       }
       
-      // Apply search query
+      
       if (searchQuery) {
         const query = searchQuery.toLowerCase();
         filtered = filtered.filter(emp => 
