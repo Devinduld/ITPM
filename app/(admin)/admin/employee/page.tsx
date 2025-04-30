@@ -131,7 +131,7 @@ export default function EmployeePage() {
     if (employees.length > 0) {
       let filtered = [...employees];
       
-      // Apply role filter
+    
       if (activeTab !== 'all') {
         filtered = filtered.filter(emp => emp.role === activeTab);
       }
