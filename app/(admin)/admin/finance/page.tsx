@@ -1202,24 +1202,7 @@ export default function FinanceManagement() {
           </Dialog>
         )}
         
-        {/* Delete Confirmation Dialog */}
-        {selectedFinance && (
-          <AlertDialog open={isDeleteDialogOpen} onOpenChange={setIsDeleteDialogOpen}>
-            <AlertDialogContent>
-              <AlertDialogHeader>
-                <AlertDialogTitle>Are you sure?</AlertDialogTitle>
-                <AlertDialogDescription>
-                  This action cannot be undone. This will permanently delete the finance record
-                  <span className="font-medium"> {selectedFinance.title}</span> and remove it from our servers.
-                </AlertDialogDescription>
-              </AlertDialogHeader>
-              <AlertDialogFooter>
-                <AlertDialogCancel>Cancel</AlertDialogCancel>
-                <AlertDialogAction 
-                  onClick={handleDeleteFinance}
-                  className="bg-destructive text-destructive-foreground hover:bg-destructive/90"
-                >
-                  Delete
+        
                 </AlertDialogAction>
               </AlertDialogFooter>
             </AlertDialogContent>
