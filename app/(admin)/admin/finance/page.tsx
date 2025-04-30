@@ -202,7 +202,7 @@ export default function FinanceManagement() {
         title: "Finance created successfully!",
         description: "Your finance has been created successfully.",
       })
-      // Reset form and refresh data
+      
       form.reset();
       setIsViewOpen(false);
       fetchFinances();
