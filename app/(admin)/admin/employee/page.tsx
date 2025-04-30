@@ -57,7 +57,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { useForm } from 'react-hook-form';
 import { Skeleton } from '@/components/ui/skeleton';
 
-// Define employee roles
+
 const employeeRoles = [
   'Manager', 
   'Engineer', 
@@ -68,7 +68,7 @@ const employeeRoles = [
   'Accountant'
 ];
 
-// Employee form schema
+
 const employeeSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters" }),
   email: z.string().email({ message: "Invalid email address" }),
