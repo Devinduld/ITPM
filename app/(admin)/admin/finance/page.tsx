@@ -802,15 +802,7 @@ export default function FinanceManagement() {
                             <Edit className="mr-2 h-4 w-4" />
                             Edit
                           </Button>
-                          <Button 
-                            variant="outline" 
-                            size="sm" 
-                            className="w-full"
-                            onClick={() => {
-                              setSelectedFinance(finance);
-                              setIsDeleteDialogOpen(true);
-                            }}
-                          >
+                        
                             <Trash2 className="mr-2 h-4 w-4" />
                             Delete
                           </Button>
