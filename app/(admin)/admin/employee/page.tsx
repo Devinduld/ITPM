@@ -78,7 +78,7 @@ const employeeSchema = z.object({
   hourlyRate: z.coerce.number().min(1, { message: "Hourly rate must be at least 1" })
 });
 
-// Attendance form schema
+
 const attendanceSchema = z.object({
   entries: z.array(
     z.object({
