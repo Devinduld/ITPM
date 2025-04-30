@@ -150,7 +150,7 @@ export default function EmployeePage() {
     }
   }, [employees, searchQuery, activeTab]);
   
-  // Prepare attendance form when an employee is selected
+  
   useEffect(() => {
     if (selectedEmployee && openDialog === 'attendance') {
       prepareAttendanceForm();
