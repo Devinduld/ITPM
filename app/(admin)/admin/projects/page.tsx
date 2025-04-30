@@ -154,7 +154,7 @@ export default function ProjectsPage() {
         body: JSON.stringify(formData),
       });
       
-      
+      // Log the raw response for debugging
       const responseText = await response.text();
       console.log('Response text:', responseText);
       
