@@ -126,7 +126,7 @@ export default function EmployeePage() {
     fetchEmployees();
   }, []);
   
-  // Filter employees when search query or tab changes
+  
   useEffect(() => {
     if (employees.length > 0) {
       let filtered = [...employees];
