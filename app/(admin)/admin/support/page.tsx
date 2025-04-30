@@ -109,7 +109,7 @@ export default function AdminSupportPage() {
       filtered = filtered.filter(inquiry => inquiry.status === statusFilter)
     }
     
-    // Apply type filter
+    
     if (typeFilter) {
       filtered = filtered.filter(inquiry => inquiry.type === typeFilter)
     }
