@@ -81,7 +81,6 @@ export default function AdminSupportPage() {
   const [currentPage, setCurrentPage] = useState(1)
   const [itemsPerPage] = useState(10)
   
-  // Fetch inquiries
   useEffect(() => {
     fetchInquiries()
   }, [])
