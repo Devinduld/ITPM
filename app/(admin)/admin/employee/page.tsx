@@ -121,7 +121,7 @@ export default function EmployeePage() {
     }
   });
   
-  // Load employees
+ 
   useEffect(() => {
     fetchEmployees();
   }, []);
