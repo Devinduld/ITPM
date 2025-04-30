@@ -85,7 +85,7 @@ export default function AdminSupportPage() {
     fetchInquiries()
   }, [])
   
-  // Apply filters
+  
   useEffect(() => {
     let filtered = [...inquiries]
     
