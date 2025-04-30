@@ -178,7 +178,7 @@ export default function EmployeePage() {
     }
   };
   
-  // Create calendar entries for the current month
+  
   const prepareAttendanceForm = async () => {
     try {
       // Check if attendance data exists for this month
