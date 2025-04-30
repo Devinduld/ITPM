@@ -77,7 +77,7 @@ export default function AdminSupportPage() {
   const [isSubmittingResponse, setIsSubmittingResponse] = useState(false)
   const [isDialogOpen, setIsDialogOpen] = useState(false)
   
-  // Pagination
+  
   const [currentPage, setCurrentPage] = useState(1)
   const [itemsPerPage] = useState(10)
   
