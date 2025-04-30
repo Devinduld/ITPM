@@ -158,7 +158,7 @@ export default function ProjectsPage() {
       const responseText = await response.text();
       console.log('Response text:', responseText);
       
-      // Parse the response text to JSON
+      
       let result;
       try {
         result = JSON.parse(responseText);
