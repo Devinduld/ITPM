@@ -93,7 +93,7 @@ export default function AdminSupportPage() {
       filtered = filtered.filter(inquiry => inquiry.customerType === activeTab)
     }
     
-    // Apply search query
+    
     if (searchQuery) {
       const query = searchQuery.toLowerCase()
       filtered = filtered.filter(inquiry => 
