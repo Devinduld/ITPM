@@ -173,7 +173,7 @@ export default function AdminSupportPage() {
       
       const updatedInquiry = await response.json()
       
-      // Update inquiries list
+      
       setInquiries(prev => 
         prev.map(inq => inq._id === updatedInquiry._id ? updatedInquiry : inq)
       )
