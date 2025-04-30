@@ -104,7 +104,7 @@ export default function AdminSupportPage() {
       )
     }
     
-    // Apply status filter
+    
     if (statusFilter) {
       filtered = filtered.filter(inquiry => inquiry.status === statusFilter)
     }
