@@ -178,7 +178,7 @@ export default function AdminSupportPage() {
         prev.map(inq => inq._id === updatedInquiry._id ? updatedInquiry : inq)
       )
       
-      // Update selected inquiry
+      
       setSelectedInquiry(updatedInquiry)
       
       // Clear response text
