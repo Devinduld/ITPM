@@ -90,7 +90,6 @@ export default function AdminSupportPage() {
   useEffect(() => {
     let filtered = [...inquiries]
     
-    // Filter by tab (customer type)
     if (activeTab !== 'all') {
       filtered = filtered.filter(inquiry => inquiry.customerType === activeTab)
     }
