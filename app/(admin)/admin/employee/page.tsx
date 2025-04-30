@@ -157,7 +157,7 @@ export default function EmployeePage() {
     }
   }, [selectedEmployee, openDialog]);
   
-  // Fetch all employees
+  
   const fetchEmployees = async () => {
     setIsLoading(true);
     try {
