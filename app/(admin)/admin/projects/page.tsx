@@ -193,7 +193,7 @@ export default function ProjectsPage() {
       setIsDialogOpen(false);
 
       
-      // Refresh the projects list
+   
       fetchProjects();
     } catch (error: any) {
       console.error('Project creation error:', error);
