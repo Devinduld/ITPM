@@ -288,7 +288,7 @@ export default function FinanceManagement() {
     }
   }, [selectedFinance, isEditOpen, form]);
 
-  // Fetch finances when component mounts or search/tab changes
+  
   useEffect(() => {
     fetchFinances();
     fetchSummary();
