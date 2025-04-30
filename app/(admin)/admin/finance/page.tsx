@@ -294,7 +294,7 @@ export default function FinanceManagement() {
     fetchSummary();
   }, [activeTab, searchQuery]);
 
-  // Format currency
+  
   const formatCurrency = (amount: number) => {
     return new Intl.NumberFormat('en-US', {
       style: 'currency',
