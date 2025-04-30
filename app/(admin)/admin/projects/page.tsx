@@ -171,7 +171,7 @@ export default function ProjectsPage() {
         throw new Error(result.error || result.message || 'Failed to create project');
       }
       
-      // Reset form
+      
       setFormData({
         title: '',
         userName: '',
