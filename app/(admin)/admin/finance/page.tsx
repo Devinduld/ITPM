@@ -186,7 +186,7 @@ export default function FinanceManagement() {
     }
   };
 
-  // Handle form submission for new finance
+  
   const onSubmit = async (values: FinanceFormValues) => {
     try {
       const res = await fetch('/api/finance', {
