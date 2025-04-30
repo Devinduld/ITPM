@@ -170,7 +170,7 @@ export default function FinanceManagement() {
     }
   };
 
-  // Function to fetch summary data
+  
   const fetchSummary = async () => {
     try {
       const res = await fetch('/api/finance/summary');
